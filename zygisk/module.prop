@@ -1,0 +1,6 @@
+id=dolbyrouter
+name=DolbyRouter (Native)
+version=v2.0.0
+versionCode=200
+author=Rick
+description=Per-app native hook: clears AUDIO_OUTPUT_FLAG_FAST so selected apps fall back to the normal (deep_buffer) track and Dolby DAP processes them.

@@ -1,0 +1,21 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.cxx/
+
+# native build output
+zygisk/out/
+zygisk/jni/third_party/**/build/
+
+# redundant archive of api-docs/libaudioclient/ (unpacked source is committed)
+api-docs/libaudioclient.tar.gz
+
+# third-party binaries not ours to redistribute
+api-docs/LSP/LSPosed-*.zip
+
+# stray empty placeholder
+api-docs/L

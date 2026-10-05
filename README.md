@@ -7,6 +7,9 @@
 > 目标设备：小米平板 6（codename `liuqin`，vendor SKU `cape`，Android 15，KernelSU Next + Zygisk Next）。
 > 仅 `arm64-v8a`。
 
+> 配套**测试探针**（8 种音频后端对照，用来验证走哪条轨 / 挂不挂杜比）见独立仓库：
+> **[JEez6/AudioProbe](https://github.com/JEez6/AudioProbe)**。
+
 ---
 
 ## 1. 为什么普通播放没杜比？
